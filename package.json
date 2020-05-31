@@ -1,7 +1,10 @@
 {
   "name": "typescript-apollo-express-graphql-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "scripts": {
+    "start:dev": "yarn run build:dev",
+    "build:dev": "nodemon 'src/server.ts' --exec 'ts-node' src/server.ts -e ts,graphql"
+  },
   "repository": "https://github.com/zephyrosjyd/typescript-apollo-express-graphql-api.git",
   "author": "Luke Youngdong Ji <zephyrosjyd@gmail.com>",
   "license": "MIT",
