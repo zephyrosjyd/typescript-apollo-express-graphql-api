@@ -2,6 +2,8 @@
   "name": "typescript-apollo-express-graphql-api",
   "version": "1.0.0",
   "scripts": {
+    "start": "node 'built/server.js'",
+    "build": "tsc -p . && ncp src/schema built/schema",
     "start:dev": "yarn run build:dev",
     "build:dev": "nodemon 'src/server.ts' --exec 'ts-node' src/server.ts -e ts,graphql"
   },
