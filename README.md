@@ -1,2 +1,2 @@
-# typescript-koa-apollo-graphql-example
-Typescript + koa + Apollo GraphQL server example
+# typescript-apollo-express-graphql-api
+Typescript + express + Apollo GraphQL server example
